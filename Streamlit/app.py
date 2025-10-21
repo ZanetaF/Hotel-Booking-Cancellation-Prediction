@@ -17,7 +17,7 @@ def download_model_from_drive(file_id, output='best_model.pkl'):
     if not os.path.exists(output):
         url = f'https://drive.google.com/uc?id={file_id}'
         gdown.download(url, output, quiet=False)
-file_id = '1aU8FtElbZQLK4b1_nE_gU3WjzyjmpXk8'
+file_id = '1t6sDKs0R634au6ADcP4slPi1kgKZq7vr'
 download_model_from_drive(file_id)
 
 MODEL_PATH = 'best_modell.pkl'
@@ -253,4 +253,5 @@ def main():
                 st.json(result)
 
 if __name__ == "__main__":
+
     main()
