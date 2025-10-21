@@ -1,4 +1,4 @@
-# Hotel Booking Cancellation Prediction
+# 🏨 Hotel Booking Cancellation Predictor
 
 ![Python](https://skillicons.dev/icons?i=python) ![Scikit-learn](https://skillicons.dev/icons?i=scikitlearn) ![XGBoost](https://skillicons.dev/icons?i=xgboost) ![Pandas](https://skillicons.dev/icons?i=pandas) ![Streamlit](https://skillicons.dev/icons?i=streamlit)
 
@@ -6,9 +6,9 @@
 **Dataset:** Hotel Booking Dataset  
 **Year:** 2025  
 
-
 ## About This Project
-This project aims to predict whether a hotel booking will be canceled. The workflow covers data preprocessing, training and comparing Random Forest and XGBoost classifiers, saving the best model with pickle, refactoring the process using OOP, creating inference scripts, and deploying the model using Streamlit with test cases.
+This project is a Machine Learning-based web application that predicts whether a hotel booking will be canceled or confirmed based on customer and booking details.
+The system is built using Streamlit for the frontend and a trained model for backend prediction.
 
 ## Dataset Features
 The dataset includes the following features:
@@ -65,6 +65,4 @@ The dataset includes the following features:
 - Streamlit  
 - Pickle (for model saving)  
 
-
-```bash
-git clone <repository-url>
+🔗 **Live Demo:** [Hotel Booking Predictor](https://hotelbookingpredictor.streamlit.app/)
